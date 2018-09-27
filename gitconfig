@@ -1,0 +1,43 @@
+[core]
+	pager = less -FRX
+	editor = vim 
+	excludesfile = ~/.gitignore
+
+[user]
+	name = Kennith Nichol
+	email = ken@nichol.pro
+
+[github]
+	user = kennithnichol
+
+[alias]
+	aa = add --all
+	co = checkout
+	st = status -sb
+	ci = commit
+	di = diff
+	dc = diff --cached
+	pish = push
+	posh = push
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	before-push = rebase -i
+	unstage = reset HEAD
+	uncommit = reset --soft HEAD^
+	move-branch-pointer = update-ref -m "reset: Reset branch to new commit"
+	empty-commit = commit --allow-empty
+
+[color]
+	ui = auto
+	diff = auto
+	branch = auto
+	status = auto
+	interactive = auto
+
+[push]
+	default = current
+
+[pull]
+	rebase = true
+
+[include]
+	path = .gitlocal

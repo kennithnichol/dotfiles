@@ -1,0 +1,39 @@
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+$RECYCLE.BIN/
+
+*.lnk
+
+# Temp files
+*.diff
+*.patch
+*.rej
+*.orig
+*.err
+*._
+*.tmp
+.monitor
+*.vi
+
+
+# SVN
+.svn/
+
+# Vagrant
+.vagrant/
+
+# Vim
+*.sw[a-z]
+.sw[a-z]
+*.un~
+Session.vim
