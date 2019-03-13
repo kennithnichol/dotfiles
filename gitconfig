@@ -1,14 +1,14 @@
 [core]
 	pager = less -FRX
-	editor = vim 
+	editor = vs
 	excludesfile = ~/.gitignore
 
 [user]
-	name = Kennith Nichol
-	email = ken@nichol.pro
+	name = Ken Nichol
+	email = ken.nichol@live.ca
 
 [github]
-	user = kennithnichol
+	user = sirnotes
 
 [alias]
 	aa = add --all
@@ -41,5 +41,6 @@
 
 [include]
 	path = .gitlocal
+
 [status]
 	submoduleSummary = true
