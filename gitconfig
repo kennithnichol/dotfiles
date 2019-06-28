@@ -1,6 +1,6 @@
 [core]
 	pager = less -FRX
-	editor = vs
+	editor = vim
 	excludesfile = ~/.gitignore
 
 [user]
@@ -8,7 +8,7 @@
 	email = ken.nichol@live.ca
 
 [github]
-	user = sirnotes
+	user = kennithnichol
 
 [alias]
 	aa = add --all
@@ -44,3 +44,5 @@
 
 [status]
 	submoduleSummary = true
+[credential]
+	helper = osxkeychain
